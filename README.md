@@ -40,5 +40,5 @@ Since this is a student project, I am currently not accepting requests to collab
   * Andela for providing me with the stage to grow
   * All my friends at ALC
   * Google search
-  * [this particular writeup](https://developers.google.com/web/fundamentals/codelabs/offline/)
+  * [This particular writeup](https://developers.google.com/web/fundamentals/codelabs/offline/)
 
