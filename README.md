@@ -34,7 +34,7 @@ This application makes use of service workers for caching visited pages, however
 # Collaboration
 Since this is a student project, I am currently not accepting requests to collaborate on this project, however, your feedback is most welcome.
 
-# Acknowledgments
+# Acknowledgment
   * The Udacity tutors for beautifully explaining how all of this can be done
   * Google for funding my experience on the Udacity platform
   * Andela for providing me with the stage to grow
