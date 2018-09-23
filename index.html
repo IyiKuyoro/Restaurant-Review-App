@@ -11,6 +11,7 @@
 </head>
 <body>
   <header>
+    <a href="#restaurant-content" class="skip-link">skip map</a>
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
@@ -19,7 +20,7 @@
     <section id="map-container">
       <div id="map"></div>
     </section>
-    <section>
+    <section id="restaurant-content" aria-valuetext="filter section">
       <div class="filter-options flex-container">
         <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
