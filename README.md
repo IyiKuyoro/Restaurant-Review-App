@@ -1,32 +1,44 @@
-# Mobile Web Specialist Certification Course
+# Restaurant-Review-App
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+#### _This project is the final project of my front-end Nanodegree Course at Udacity_
 
-## Project Overview: Stage 1
+## Introduction
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+This is a simple restaurant review application built to work offline. It makes use of service workers to handle offline requests.
 
-### Specification
+## Getting Started
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+Clone the repo to your local machine and take the following steps.
+  1. Your computer should have python installed to check, run `python -V` on your terminal
+  2. It your python version is 2.X, run the following on a terminal to start the server `python -m SimpleHTTPServer 8000`
+  3. If your python version is 3.X, run the folliwng on a terminal to start the server `python3 -m http.server 8000`
+  4. Visit [Python's Website](https://www.python.org/) to download python if you don't have it installed
+  5. Lunch the application from `localhost:8000`
 
-### What do I do from here?
+## limitations
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+This application makes use of service workers for caching visited pages, however, if you makes changes to the service worker or any part of the application, you will have to load the new service worker manually.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+## Built With
+  * HTML: Used for creating the DOM elements
+  * CSS: Used for styling the pages
+  * JavaScript: Used for DOM manipulation and the service worker
+  * MapBox: The map API used.
+  
+# Author
+  * *Opeoluwa Iyi-Kuyoro* :man: - [Portfolio](https://iyikuyoro.github.io/My-Portfolio/)
+  * *David Harris* :man: - [GitHub](https://github.com/forbiddenvoid)
+  * *Michael Phan* :man: - [GitHub](https://github.com/genchau)
+  * *Focus3D* :man: -[GitHub](https://github.com/Focus3D)
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+# Collaboration
+Since this is a student project, I am currently not accepting requests to collaborate on this project, however, your feedback is most welcome.
 
-## Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
+# Acknowledgment
+  * The Udacity tutors for beautifully explaining how all of this can be done
+  * Google for funding my experience on the Udacity platform
+  * Andela for providing me with the stage to grow
+  * All my friends at ALC
+  * Google search
+  * [This particular writeup](https://developers.google.com/web/fundamentals/codelabs/offline/)
 
