@@ -12,21 +12,21 @@
 <body>
   <header>
     <a href="#restaurant-content" class="skip-link">skip map</a>
-    <nav>
+    <nav class="header-nav">
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
   <main id="maincontent">
-    <section id="map-container">
-      <div id="map"></div>
+    <section id="map-container" >
+      <div id="map" role="application" aria-label="Mapbox"></div>
     </section>
-    <section id="restaurant-content" aria-valuetext="filter section">
+    <section id="restaurant-content">
       <div class="filter-options flex-container">
         <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <select aria-label="filter neighborhoods" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <select aria-label="filter cuisines" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
       </div>
