@@ -1,5 +1,5 @@
 # Restaurant-Review-App
----
+
 #### _This project is the final project of my front-end Nanodegree Course at Udacity_
 
 ## Introduction
