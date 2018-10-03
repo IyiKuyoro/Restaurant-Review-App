@@ -9,7 +9,7 @@ This is a simple restaurant review application built to work offline. It makes u
 ## Getting Started
 
 Clone the repo to your local machine and take the following steps.
-  1. Your computer should have python installed to check, run `python -V` on your terminal
+  1. Your computer should have python installed. To check, run `python -V` on your terminal
   2. It your python version is 2.X, run the following on a terminal to start the server `python -m SimpleHTTPServer 8000`
   3. If your python version is 3.X, run the folliwng on a terminal to start the server `python3 -m http.server 8000`
   4. Visit [Python's Website](https://www.python.org/) to download python if you don't have it installed
